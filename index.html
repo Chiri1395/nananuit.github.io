@@ -1,90 +1,211 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nananuit - Asesoría de sueño infantil</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Nananuit - Acompañamiento respetuoso del sueño infantil. Fisioterapeuta especializada en sueño del bebé, despertares nocturnos y crianza respetuosa.">
+  <meta name="keywords" content="sueño infantil, asesoría de sueño, bebé que no duerme, despertares nocturnos, crianza respetuosa, hábitos de sueño del bebé">
+  <title>Nananuit | Sueño infantil respetuoso</title>
+
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #f7f7f7;
+      background: #fffaf7;
       color: #333;
     }
+
     header {
-      background: #a8d5ba;
-      padding: 40px 20px;
+      background: linear-gradient(135deg, #cfe8d5, #f7d6e0, #f6e7a7, #d9d2f3);
+      padding: 80px 20px;
       text-align: center;
     }
+
     header h1 {
-      margin: 0;
-      font-size: 2.5em;
+      font-size: 42px;
+      margin-bottom: 10px;
+      color: #2f2f2f;
     }
+
     header p {
-      margin-top: 10px;
-      font-size: 1.2em;
+      font-size: 18px;
+      margin-bottom: 20px;
     }
+
+    .btn {
+      background: #7aa88c;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+    }
+
     section {
-      padding: 40px 20px;
-      max-width: 900px;
+      padding: 60px 20px;
+      max-width: 1000px;
       margin: auto;
     }
-    .cta {
-      background: #fff;
+
+    h2 {
+      color: #444;
+      margin-bottom: 20px;
+    }
+
+    .placeholder-img {
+      width: 100%;
+      height: 250px;
+      background: #eee;
+      border: 2px dashed #ccc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #999;
+      margin: 20px 0;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
       padding: 20px;
-      border-radius: 10px;
-      text-align: center;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 15px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     }
-    .cta a {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 12px 20px;
-      background: #a8d5ba;
-      color: #000;
+
+    /* Sticky contact button */
+    .sticky-contact {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #d96c6c;
+      color: white;
+      padding: 14px 18px;
+      border-radius: 30px;
       text-decoration: none;
-      border-radius: 5px;
       font-weight: bold;
+      z-index: 999;
     }
+
+    /* Lead magnet */
+    .lead {
+      background: #f6e7a7;
+      padding: 40px;
+      border-radius: 20px;
+      text-align: center;
+    }
+
+    .lead input {
+      padding: 10px;
+      width: 70%;
+      max-width: 300px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      margin-top: 10px;
+    }
+
+    .lead button {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 10px;
+      background: #7aa88c;
+      color: white;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+
     footer {
       text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
+      padding: 30px;
+      font-size: 14px;
       color: #777;
     }
   </style>
 </head>
+
 <body>
 
+<!-- HERO -->
 <header>
   <h1>Nananuit</h1>
-  <p>Asesoría de sueño infantil basada en el respeto y la evidencia</p>
+  <p>Acompañamiento respetuoso del sueño infantil</p>
+  <p>Fisioterapeuta especializada en sueño infantil y respiratorio</p>
+  <a href="#contacto" class="btn">Cuéntame tu caso</a>
 </header>
 
+<!-- QUIÉN SOY -->
 <section>
-  <h2>Sobre mí</h2>
+  <h2>Quién soy</h2>
+  <div class="placeholder-img">IMAGEN PROFESIONAL (QUIÉN SOY)</div>
   <p>
-    Soy Marina, fisioterapeuta pediátrica y asesora de sueño infantil. Ayudo a familias a mejorar el descanso de sus bebés de forma respetuosa, adaptada y realista.
+    Soy fisioterapeuta especializada en fisioterapia infantil y sueño del bebé.
+    Acompaño a familias desde un enfoque respetuoso, cercano y humano, sin métodos de dejar llorar.
   </p>
 </section>
 
+<!-- SERVICIOS -->
 <section>
   <h2>Servicios</h2>
-  <ul>
-    <li>Asesoría personalizada de sueño</li>
-    <li>Rutinas y hábitos saludables</li>
-    <li>Acompañamiento continuo</li>
-  </ul>
+  <div class="services">
+
+    <div class="card">
+      <h3>Consulta inicial</h3>
+      <p>Evaluación del caso y primeras pautas personalizadas.</p>
+    </div>
+
+    <div class="card">
+      <h3>0-4 meses</h3>
+      <p>Acompañamiento en recién nacidos y establecimiento de rutinas suaves.</p>
+    </div>
+
+    <div class="card">
+      <h3>Plan de sueño</h3>
+      <p>Estrategia personalizada adaptada a tu bebé y vuestra familia.</p>
+    </div>
+
+    <div class="card">
+      <h3>Acompañamiento</h3>
+      <p>Seguimiento continuo para mejorar el descanso progresivamente.</p>
+    </div>
+
+  </div>
 </section>
 
-<section class="cta">
-  <h2>Reserva tu asesoría</h2>
-  <p>Empieza a mejorar el descanso de tu bebé hoy mismo</p>
-  <a href="https://forms.gle/eLxUCVdPHb6utwJd7.com/">Cuéntame tu caso</a>
+<!-- LEAD MAGNET -->
+<section class="lead">
+  <h2>Descarga la guía gratuita de rutinas por edades</h2>
+  <p>Recibe consejos prácticos para mejorar el sueño de tu bebé.</p>
+  <input type="email" placeholder="Tu email">
+  <button>Quiero la guía</button>
 </section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <h2>Contacto</h2>
+
+  <form>
+    <input type="text" placeholder="Nombre" style="width:100%;padding:10px;margin:5px 0;">
+    <input type="email" placeholder="Email" style="width:100%;padding:10px;margin:5px 0;">
+    <textarea placeholder="Cuéntame tu caso" style="width:100%;padding:10px;margin:5px 0;height:120px;"></textarea>
+    <button class="btn" type="submit">Enviar</button>
+  </form>
+
+  <p style="margin-top:20px;">Instagram: @nananuit</p>
+</section>
+
+<!-- STICKY BUTTON -->
+<a href="https://TU-LINK-AQUI.com" class="sticky-contact">
+  Cuéntame tu caso aquí
+</a>
 
 <footer>
-  <p>© 2026 Nananuit</p>
+  © 2026 Nananuit - Sueño infantil respetuoso
 </footer>
 
 </body>
